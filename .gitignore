@@ -56,6 +56,10 @@ models/*.joblib
 # We recommend hosting models on a registry, but if keeping them here:
 # models/
 
+# Ne pas ignorer les données et modèles nécessaires
+!02_ML_Engineering/data/processed/
+!02_ML_Engineering/models/
+
 # --- Environment Secrets ---
 .env
 .flaskenv
