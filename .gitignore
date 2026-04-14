@@ -37,7 +37,7 @@ ENV/
 *.rar
 *.7z
 # Keep small sample data if necessary, but exclude large ones
-data/
+!data/
 !data/.gitkeep
 
 # --- IDE & OS ---
